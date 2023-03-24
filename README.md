@@ -11,10 +11,14 @@ service ssh start
 ```
 
 # Add new user 
+```sh
 adduser akshay
+```
 
 # Modify /etc/ssh/sshd_config to add user akshay
+```sh
 AllowUsers akshay
+```
 
 # SSH with below command
 
